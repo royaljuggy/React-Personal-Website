@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-personal/static/css/main.de332766.css",
-    "main.js": "/react-personal/static/js/main.601379a7.js",
-    "static/media/jacob.png": "/react-personal/static/media/jacob.e30245fd3966c2cee946.png",
-    "static/media/icon.png": "/react-personal/static/media/icon.dd75356a421c3cb20993.png",
-    "static/media/JAN2022.pdf": "/react-personal/static/media/JAN2022.56db616602431f39e217.pdf",
-    "static/media/happy-emilia.jpg": "/react-personal/static/media/happy-emilia.29cbee1aa016d8e83c85.jpg",
-    "index.html": "/react-personal/index.html",
-    "main.de332766.css.map": "/react-personal/static/css/main.de332766.css.map",
-    "main.601379a7.js.map": "/react-personal/static/js/main.601379a7.js.map"
+    "main.css": "/React-Personal-Website/static/css/main.de332766.css",
+    "main.js": "/React-Personal-Website/static/js/main.610f0eb0.js",
+    "static/media/jacob.png": "/React-Personal-Website/static/media/jacob.e30245fd3966c2cee946.png",
+    "static/media/icon.png": "/React-Personal-Website/static/media/icon.dd75356a421c3cb20993.png",
+    "static/media/JAN2022.pdf": "/React-Personal-Website/static/media/JAN2022.56db616602431f39e217.pdf",
+    "static/media/happy-emilia.jpg": "/React-Personal-Website/static/media/happy-emilia.29cbee1aa016d8e83c85.jpg",
+    "index.html": "/React-Personal-Website/index.html",
+    "main.de332766.css.map": "/React-Personal-Website/static/css/main.de332766.css.map",
+    "main.610f0eb0.js.map": "/React-Personal-Website/static/js/main.610f0eb0.js.map"
   },
   "entrypoints": [
     "static/css/main.de332766.css",
-    "static/js/main.601379a7.js"
+    "static/js/main.610f0eb0.js"
   ]
 }
