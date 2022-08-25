@@ -3,11 +3,7 @@ import './services.css'
 import ServicesList from './ServicesList'
 
 const TECHSTACK = {
-  header: "Experiencing Modern Technologies Professionally",
-  items: [
-    "LOREM IPSUM",
-    "LOREUM IPSUM2",
-  ]
+
 }
 
 const PROFESSIONAL = {
@@ -22,17 +18,48 @@ const BUILDING = {
   items: []
 }
 
+const data = [
+  {
+    header: "eSolutions",
+    position: "Website Configuration Specialist",
+    items: [
+      "LOREM IPSUM",
+      "LOREUM IPSUM2",
+    ]
+  },
+  {
+    header: "Infor",
+    position: "Software Developer",
+    items: [
+      "LOREM IPSUM",
+      "LOREUM IPSUM2",
+    ]
+  },
+  {
+    header: "Peel District School Board",
+    position: "Camp Explore Leader",
+    items: [
+      "LOREM IPSUM",
+      "LOREUM IPSUM2",
+    ]
+  }
+]
 const Services = () => {
   return (
     // technically, this would be services provided by a freelancer.
     <section id="services">
-      <h5>What I'm Interested In</h5>
-      <h2>Technologies, Experience, and More</h2>
+      <h5>My Past Employment</h5>
+      <h2>Experience</h2>
 
       <div className="container services__container">
-        <ServicesList header={TECHSTACK.header} items={TECHSTACK.items}/>
-        <ServicesList header={PROFESSIONAL.header} items={PROFESSIONAL.items}/>
-        <ServicesList header={BUILDING.header} items={BUILDING.items}/>
+        {
+          data.map(({header, position, items}) => {
+            return (
+              <ServicesList header={header} position={position} items={items}></ServicesList>
+            )
+          })
+        }
+
       </div>
     </section>
   )
