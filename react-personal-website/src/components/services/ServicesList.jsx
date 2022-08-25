@@ -7,6 +7,7 @@ const ServicesList = (props) => {
     <article className="service">
         <div className="service__head">
             <h3>{props.header}</h3>
+            <h4>{props.position}</h4>
         </div>
         <ul className="service__list">
             {props.items.map(item => (
