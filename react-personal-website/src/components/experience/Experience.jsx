@@ -57,6 +57,16 @@ const BE_SKILLS = [
     id: 4,
     name: "SQL",
     experience: BEGINNER + WORK_EXP,
+  },
+  {
+    id: 5,
+    name: "Jenkins",
+    experience: BEGINNER + WORK_EXP,
+  },
+  {
+    id: 6,
+    name: "Git and SVN",
+    experience: INTERMEDIATE + WORK_EXP,
   }
 ]
 
@@ -77,7 +87,7 @@ const Experience = () => {
           </div>
         </div>
         <div className="experience__backend">
-          <h3>Backend Development</h3>
+          <h3>Backend Development (and More)</h3>
           <div className="experience__content">
             {BE_SKILLS.map(skill => (
               <ExperienceDetails key={skill.id} skill={skill.name} experience={skill.experience}/>
@@ -86,7 +96,7 @@ const Experience = () => {
         </div>
       </div>
 
-    <p className="text">Asterisk (*) indicates used during one or more of my 4 month co-op terms.</p>
+      <p className="text">Asterisk (*) indicates used during one or more of my 4 month co-op terms.</p>
 
     </section>
   )
