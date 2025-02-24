@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 
 // TODO: update photo -> crop to square (1:1)
-import aboutMe from '../../assets/jacob-square-lower-crop.png'
+import aboutMe from '../../assets/jacob-2025-cropped.png'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -25,19 +25,19 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon"/>
               <h5>Experience</h5>
-              <p>16 months schooling - 8 months developer co-op</p>
+              <p>32 months schooling - 24 months software developer positions</p>
             </article>
             
             <article className="about__card">
               <FiUsers className="about__icon"/>
               <h5>Past Companies</h5>
-              <p>eSolutions, Infor, Peel District School Board</p>
+              <p>NN Group, GEOTAB, Infor, eSolutionsGroup</p>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon"/>
               <h5>Notable Projects</h5>
-              <p>Chess Group Project, React Portfolio Website</p>
+              <p>Distributed File System, Movie/Recipe Directory Web-App, 8-months in Japan</p>
             </article>
           </div>
         </div>

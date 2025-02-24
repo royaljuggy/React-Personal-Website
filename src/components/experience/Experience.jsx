@@ -26,13 +26,13 @@ const FE_SKILLS = [
   },
   {
     id: 4,
-    name: "Angular",
+    name: "React",
     experience: INTERMEDIATE + WORK_EXP,
   },
   {
     id: 5,
-    name: "React",
-    experience: BEGINNER,
+    name: "Angular",
+    experience: INTERMEDIATE + WORK_EXP,
   }
 
 ]
@@ -40,32 +40,32 @@ const FE_SKILLS = [
 const BE_SKILLS = [
   {
     id: 1,
-    name: "Java",
+    name: "C#",
     experience: INTERMEDIATE + WORK_EXP,
   },
   {
     id: 2,
+    name: "Python",
+    experience: INTERMEDIATE + WORK_EXP,
+  },
+  {
+    id: 3,
+    name: "Java",
+    experience: INTERMEDIATE + WORK_EXP,
+  },
+  {
+    id: 4,
+    name: "SQL (MySQL, Postgres)",
+    experience: INTERMEDIATE + WORK_EXP,
+  },
+  {
+    id: 5,
     name: "C++",
     experience: INTERMEDIATE,
   },
   {
-    id: 3,
-    name: "Kotlin",
-    experience: BEGINNER + WORK_EXP,
-  },
-  {
-    id: 4,
-    name: "SQL",
-    experience: BEGINNER + WORK_EXP,
-  },
-  {
-    id: 5,
-    name: "Jenkins",
-    experience: BEGINNER + WORK_EXP,
-  },
-  {
     id: 6,
-    name: "Git and SVN",
+    name: "Git",
     experience: INTERMEDIATE + WORK_EXP,
   }
 ]

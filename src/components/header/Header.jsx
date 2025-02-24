@@ -16,16 +16,16 @@ const Header = () => {
         </h5>
 
         {/* Call to Actions */}
-        <CTA/>
+        {/* <CTA/>
         <SocialsInline/>
-        <HeaderSocials/>
+        <HeaderSocials/> */}
 
-        <div className="me">
+        {/* <div className="me">
           <img src={photoOfMe} alt="Me"/>
-        </div>
+        </div> */}
 
 
-        <a href="#contact" className="scroll__down">Scroll Down</a>
+        {/* <a href="#contact" className="scroll__down">Scroll Down</a> */}
       </div>
     </header>
   )

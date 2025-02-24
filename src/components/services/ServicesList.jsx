@@ -10,8 +10,9 @@ const ServicesList = (props) => {
             <h4>{props.position}</h4>
         </div>
         <p className="blurb">
+          {props.blurb} <br></br><br></br>
           {props.timeframe} <br></br><br></br>
-          {props.blurb}
+          {props.location}
         </p>
         <ul className="service__list">
             {props.items.map(item => (

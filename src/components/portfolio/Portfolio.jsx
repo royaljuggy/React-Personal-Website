@@ -6,10 +6,11 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Math Solver',
-    URL: "https://github.com/royaljuggy/math-solver",
-    demo: "https://github.com/royaljuggy/math-solver",
-    secondBtnText: "Link to Repo"
+    title: 'Movie File System',
+    URL: "https://github.com/royaljuggy/mfs",
+    demo: "https://github.com/royaljuggy/mfs/issues",
+    secondBtnText: "Link to Issues",
+    description: "Movie directory web application built in Python (Flask), React, MySQL"
   },
   {
     id: 2,
@@ -40,13 +41,14 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, URL, demo, secondBtnText}) => {
+          data.map(({id, image, title, URL, demo, secondBtnText, description}) => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
                   <img src={image} alt={title}></img>
                 </div>
                 <h3>{title}</h3>
+                <div className="description">{description}</div>
                 <div className="portfolio__item-cta">
                   <a href={URL} className="btn">Github</a>
                   <a href={demo} className="btn btn-primary">{btnText(secondBtnText)}</a>

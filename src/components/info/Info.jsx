@@ -24,19 +24,19 @@ const Info = () => {
 
                 <br></br><br></br>
 
-                <h4>For interested employers, I am currently seeking co-op positions for:</h4>
-                <ul className="info__list">
-                    <li>Winter 2023 (4 mo.)</li>
-                    <li>Fall 2024 (4 mo.)</li>
-                    <li>Summer 2024 (8 mo.)</li>
+                <h4>For interested employers, please reach out to me on LinkedIn or by email:</h4>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/jacob-meksavanh/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                    <li><a href="mailto:jmeksava@uwaterloo.ca">Email</a></li>
                 </ul>
+                
 
                 <br></br><br></br>
 
                 <h4>And to wrap things up, some professional goals of mine are:</h4>
                 <ul className="info__list">
                     <li>Build something that is known worldwide OR improves the living situation of others</li>
-                    <li>Live and work in Japan</li>
+                    <li>Live and work in Japan (DONE!)</li>
                     <li>Work to develop software, not to earn money</li>
                 </ul>
 
@@ -45,8 +45,8 @@ const Info = () => {
                 <h4>Spoken Languages</h4>
                 <ul class="info__list">
 					<li><strong>English</strong>: Native speaker</li>
-					<li><strong>French</strong>: Limited working proficiency</li>
-					<li><strong>Japanese</strong>: Elementary proficiency</li>
+					<li><strong>French</strong>: Elementary/classroom study</li>
+					<li><strong>Japanese</strong>: Conversational (I've lived in Tokyo for 5 months)</li>
 				</ul>
             </div>
             <LetsTalkButton/>
