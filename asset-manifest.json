@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/React-Personal-Website/static/css/main.de332766.css",
-    "main.js": "/React-Personal-Website/static/js/main.610f0eb0.js",
+    "main.css": "/React-Personal-Website/static/css/main.4ca34341.css",
+    "main.js": "/React-Personal-Website/static/js/main.bb4cc046.js",
     "static/media/jacob.png": "/React-Personal-Website/static/media/jacob.e30245fd3966c2cee946.png",
+    "static/media/jacob-square-lower-crop.png": "/React-Personal-Website/static/media/jacob-square-lower-crop.a97015c82a4deba68dff.png",
     "static/media/icon.png": "/React-Personal-Website/static/media/icon.dd75356a421c3cb20993.png",
     "static/media/JAN2022.pdf": "/React-Personal-Website/static/media/JAN2022.56db616602431f39e217.pdf",
     "static/media/happy-emilia.jpg": "/React-Personal-Website/static/media/happy-emilia.29cbee1aa016d8e83c85.jpg",
     "index.html": "/React-Personal-Website/index.html",
-    "main.de332766.css.map": "/React-Personal-Website/static/css/main.de332766.css.map",
-    "main.610f0eb0.js.map": "/React-Personal-Website/static/js/main.610f0eb0.js.map"
+    "main.4ca34341.css.map": "/React-Personal-Website/static/css/main.4ca34341.css.map",
+    "main.bb4cc046.js.map": "/React-Personal-Website/static/js/main.bb4cc046.js.map"
   },
   "entrypoints": [
-    "static/css/main.de332766.css",
-    "static/js/main.610f0eb0.js"
+    "static/css/main.4ca34341.css",
+    "static/js/main.bb4cc046.js"
   ]
 }
