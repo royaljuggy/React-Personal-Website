@@ -1,5 +1,3 @@
-# React-Personal-Website
+Welcome to my Personal React Website! To be updated as time goes one.
 
-Welcome to the Source Code for my personal website: https://royaljuggy.github.io
-
-Feel free to Fork it!
+My website's base is from: https://youtu.be/G-Cr00UYokU, the first ever React tutorial I've watched :)!
